@@ -268,35 +268,35 @@
             </tr>
             <?php } ?>
             <?php if($monthlyPayment > 0 ){ ?>
-            <tr class="oddRow">
-                <td><label for="downPay2_acal"><a href="#return" name="downpayment" id="downpayment" onmouseover="return help10(this)" onmouseout="return nd();"><strong>?</strong></a> Downpayment:</label>
-                </td>
-                <td>
-                    <input class="result" type="TEXT" id="downPay2_acal" name="downPay2" size="15" value="$<?php echo number_format($downPay,2); ?>" disabled="disabled">
-                </td>
-            </tr>
-            <tr class="evenRow">
-                <td><label for="loanAmt_acal"><a href="#return" name="lamount" id="lamount" onmouseover="return help11(this)" onmouseout="return nd();"><strong>?</strong></a> Loan Amount:</label>
-                </td>
-                <td>
-                    <input class="result" type="TEXT" id="loanAmt_acal" name="loanAmt" size="15" value="$<?php echo number_format($loanPrincipal,2); ?>" disabled="disabled">
-                </td>
-            </tr>
-            <tr class="oddRow">
-                <td><label for="homePrice_acal"><a href="#return" name="hprice" id="hprice" onmouseover="return help12(this)" onmouseout="return nd();"><strong>?</strong></a> Home Price:</label>
-                </td>
-                <td>
-                    <input class="result" type="TEXT" id="homePrice_acal" name="homePrice" size="15" value="$<?php echo number_format($homePrice,2); ?>" disabled="disabled">
-                </td>
-            </tr>
-            <tr class="evenRow">
-                <td><label for="_acal"><a href="#return" name="mpayment" id="mpayment" onmouseover="return help13(this)" onmouseout="return nd();"><strong>?</strong></a> Monthly Payment:</label>
-                </td>
-                <td>
-                    <input class="result" type="TEXT" id="_acal" name="moPay" size="15" value="$<?php echo number_format($monthlyPayment,2  );?>" disabled="disabled">
-                </td>
-            </tr>
-            <?php } ?>
+                <tr class="oddRow">
+                    <td><label for="downPay2_acal"><a href="#return" name="downpayment" id="downpayment" onmouseover="return help10(this)" onmouseout="return nd();"><strong>?</strong></a> Downpayment:</label>
+                    </td>
+                    <td>
+                        <input class="result" type="TEXT" id="downPay2_acal" name="downPay2" size="15" value="$<?php echo number_format($downPay,2); ?>" disabled="disabled">
+                    </td>
+                </tr>
+                <tr class="evenRow">
+                    <td><label for="loanAmt_acal"><a href="#return" name="lamount" id="lamount" onmouseover="return help11(this)" onmouseout="return nd();"><strong>?</strong></a> Loan Amount:</label>
+                    </td>
+                    <td>
+                        <input class="result" type="TEXT" id="loanAmt_acal" name="loanAmt" size="15" value="$<?php echo number_format($loanPrincipal,2); ?>" disabled="disabled">
+                    </td>
+                </tr>
+                <tr class="oddRow">
+                    <td><label for="homePrice_acal"><a href="#return" name="hprice" id="hprice" onmouseover="return help12(this)" onmouseout="return nd();"><strong>?</strong></a> Home Price:</label>
+                    </td>
+                    <td>
+                        <input class="result" type="TEXT" id="homePrice_acal" name="homePrice" size="15" value="$<?php echo number_format($homePrice,2); ?>" disabled="disabled">
+                    </td>
+                </tr>
+                <tr class="evenRow">
+                    <td><label for="_acal"><a href="#return" name="mpayment" id="mpayment" onmouseover="return help13(this)" onmouseout="return nd();"><strong>?</strong></a> Monthly Payment:</label>
+                    </td>
+                    <td>
+                        <input class="result" type="TEXT" id="_acal" name="moPay" size="15" value="$<?php echo number_format($monthlyPayment,2  );?>" disabled="disabled">
+                    </td>
+                </tr>
+                <?php } ?>
             <?php } ?>
 
         </tbody>
