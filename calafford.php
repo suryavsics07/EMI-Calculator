@@ -3,25 +3,25 @@
 ?>
 <?php //get_header(); ?>
 <style>
-div#overDiv {
-    width: 940px;
-    margin-left: -470px;
-}
-div#overDiv>table {
-    float: right;
-}
-.popmenubg {
-    background-color: #2b5985;
-    padding: 2px 5px;
-    font-weight: bold;
-    line-height: 1.5em;
-}
-#overDiv table, #overDiv table tr, #overDiv table td {
-    margin: 0;
-}
-#overDiv table td {
-    padding: 0 5px;
-}
+    div#overDiv {
+        width: 940px;
+        margin-left: -470px;
+    }
+    div#overDiv>table {
+        float: right;
+    }
+    .popmenubg {
+        background-color: #2b5985;
+        padding: 2px 5px;
+        font-weight: bold;
+        line-height: 1.5em;
+    }
+    #overDiv table, #overDiv table tr, #overDiv table td {
+        margin: 0;
+    }
+    #overDiv table td {
+        padding: 0 5px;
+    }
     div.calculator {
         font-size: 15px;
         color: #666;
@@ -132,9 +132,9 @@ div#overDiv>table {
     }
 </style>
 <div class="calculator" style="position:relative">
-<?php if(isset($_POST['submitFrm']) && (empty($_POST['grossPay']) || empty($_POST['downPay']) || empty($_POST['intRate']) )) { ?>
-    <font color="red">You must enter a <b>Gross Pay</b>, <b>Down payment</b> <i>and</i> <b>Rntrest Rate</b></font>
-<?php } ?>
+    <?php if(isset($_POST['submitFrm']) && (empty($_POST['grossPay']) || empty($_POST['downPay']) || empty($_POST['intRate']) )) { ?>
+        <font color="red">You must enter a <b>Gross Pay</b>, <b>Down payment</b> <i>and</i> <b>Intrest Rate</b></font>
+    <?php } ?>
     <form name="calcForm" action="" method="POST">
         <table cellspacing="0" class="calcTable" width="100%">
 
