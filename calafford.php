@@ -258,7 +258,6 @@ div#overDiv>table {
                 
                 /* monthlypaymrny formula ((yearlyintrestrate / 100 / 12) * loanPrincipal) / (1 - ((1 + (yearlyintrestrate / 100 / 12)) ^ (-loanTerm * 12))) */
                
-                // $monthlyPayment = ( ( ((6.5 / 100 / 12) )*( pow((1 + (6.5 / 100 / 12)) ,$months) ) ) /(( pow((1 + (6.5 / 100 / 12)) ,$months) ) - 1) )* $loanPrincipal;
                 $monthlyPayment = $loanPrincipal * $intRate * (pow(1 + $intRate, $months) / (pow(1 + $intRate, $months) - 1));
                 
                

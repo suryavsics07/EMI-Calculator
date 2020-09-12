@@ -1,7 +1,6 @@
 <?php
 /* Template Name: Calculator Rent Buy */
 
-error_reporting('E_ALL');
 ?>
 <?php //get_header(); ?>
 <style>
