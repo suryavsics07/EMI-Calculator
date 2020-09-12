@@ -92,7 +92,6 @@
         width: 100%;
     }
     .calcTable tr td input[type=text] {
-       
        width: 85%;
    }
     .calcTable TD.buttonBar {
@@ -139,15 +138,14 @@
         <table cellspacing="0" class="calcTable" width="100%">
 
         <tbody>
-                <tr>
+		<tr>
                     <th colspan="2">Mortgage Qualification Calculator V1.1</th>
                 </tr>
-
-            <tr>
-                <td colspan="2" class="description">
-                    This calculator will help you to determine how much house you can afford and/or qualify for.
-                </td>
-            </tr>
+            	<tr>
+			<td colspan="2" class="description">
+			    This calculator will help you to determine how much house you can afford and/or qualify for.
+			</td>
+            	</tr>
 
             <tr class="oddRow">
                 <td><label for="grossPay">Gross annual income:</label></td>
